@@ -86,11 +86,6 @@ body {
     border: 1px solid var(--clr-300);
 }
 
-/* .submit-button:active {
-    background-color: var(--clr-200);
-    opacity: 15%;
-} */
-
 .color-scheme-display {
     flex-direction: column;
     height: 90%;
