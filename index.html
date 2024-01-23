@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Color Generator</title>
+</head>
+
+<body>
+    <div class="color-generator">
+        <div class="color-picker-bar-container flex align-center">
+            <section class="color-picker-bar flex align-center">
+                <input type="color" value="#FFB627" class="color-picker" id="color-picker">
+                <form class="color-scheme-form flex" id="color-scheme-form">
+                    <select aria-label="Choose color scheme" name="color-scheme-select" id="color-scheme-select"
+                        class="color-scheme-select">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                    </select>
+                    <button class="button submit-button" id="submit-button" type="submit">
+                        Get color scheme</button>
+                </form>
+            </section>
+        </div>
+        <div class="color-scheme-display flex" id="color-scheme-display">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
