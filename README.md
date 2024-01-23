@@ -1,6 +1,6 @@
 # Color Scheme Generator
 
-### View Live Application: 
+#### View Live Application: https://sarahs-color-scheme-generator.netlify.app/
 
 ## Overview
 Application generates a color scheme from The Color API based on the user-selected color.
